@@ -55,7 +55,7 @@ class LineAPI {
     path: this.config.LINE_HTTP_URL,
     https: true
   }) {
-    options.headers['X-Line-Application'] = 'IOSIPAD\t8.11.0\tDhenza-PC\t8.11.0';
+    options.headers['X-Line-Application'] = 'IOSIPAD\t8.11.0\tEncepBots\t8.11.0';
     this.options = options;
     this.connection =
       thrift.createHttpConnection(this.config.LINE_DOMAIN_3RD, 443, this.options);
@@ -98,7 +98,7 @@ class LineAPI {
   _qrCodeLogin() {
     this.setTHttpClient();
     return new Promise((resolve, reject) => {
-    this._client.getAuthQrcode(true, 'Dhenza-PC',(err, result) => {
+    this._client.getAuthQrcode(true, 'EncepBots',(err, result) => {
       const qrcodeUrl = `line://au/q/${result.verifier}`;
       qrcode.generate(qrcodeUrl,{small: true});
       console.info(`\n\nlink qr code is: ${qrcodeUrl}`)
@@ -145,7 +145,7 @@ class LineAPI {
 				 reqx.password = rsaCrypto.credentials;
 				 reqx.keepLoggedIn = true;
 				 reqx.accessLocation = this.config.ip;
-				 reqx.systemName = 'Dhenza-PC';
+				 reqx.systemName = 'EncepBots';
 				 reqx.e2eeVersion = 0;
 				 try{
 					 this._client.loginZ(reqx,
