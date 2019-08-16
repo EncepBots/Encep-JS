@@ -26,7 +26,7 @@ var TbanList = []; //Users Banned Chat
 var commandGroup = [];
 var banList = []; //Banned list
 var vx = {};var midnornama,pesane,kickhim;var waitMsg = "no";//DO NOT CHANGE THIS
-var komenTL = "AutoLike by \nline://ti/p/~dhenz415"; //Comment for timeline
+var komenTL = "AutoLike by \nline://ti/p/~triexfrozth"; //Comment for timeline
 var bcText = "";//Jangan Di Apa-Apa In Oke Beb :')
 var limitposts = '10'; //Output timeline post
 
@@ -2193,7 +2193,7 @@ this._sendMessage(seq,"Mohon Maaf Anda Bukan Admin ");
 
         if(txt == 'sp') {
             const curTime = (Date.now() / 1000);
-            await this._sendMessage(seq,'☄Speed Js...');
+            await this._sendMessage(seq,'💣Ngacir...');
             const rtime = (Date.now() / 1000) - curTime;
             await this._sendMessage(seq, `${rtime} second`);
         }
@@ -2205,14 +2205,14 @@ this._sendMessage(seq,"Mohon Maaf Anda Bukan Admin ");
 await this._sendMessage(seq,mentions.names.join(''))
         }
 
-        if(txt == 'sk' && this.sendRata == 0 && isAdmin(seq.from_)) {
+        if(txt == 'ass' && this.sendRata == 0 && isAdmin(seq.from_)) {
            this.sendRata = 1;
-           this._sendMessage(seq, '☄TAHAN NAFAS SEJENAK JIKA SIAP KETIK [Yes]\nKALO BELUM SIAP KETIK [No]');
+           this._sendMessage(seq, 'Assalamualaikum,WR,WB');
          }
 
-        if(txt === 'yes' && this.sendRata == 1 && isAdmin(seq.from_)) {
+        if(txt === 'hay' && this.sendRata == 1 && isAdmin(seq.from_)) {
             this.sendRata = 0;
-            let txt = await this._sendMessage(seq, ' ☄☄WELCOME TO ZONA KICKER☄☄\n\nSILENTKILLER HADIR KEMBALI\n\nNO RUSUH NO ASIK\n\nLOE RUSUH GUA KICK\n\nKALO MASIH BAPER GUA SARANIN LOE BIAR MAEN TIKTOK AJA\n\n\n☠ROOM BOKEP\n☠ROOM JUDI\n☠ROOM MAKSIAT\n☠ROOM GAK JELAS\n\nSIAP KAMI HANCURKAN\n HAPPY AND ENJOY WITH SILENTKILLER \n\n\n\n\n 🔫🔫🚫SLAM KICKER🛇🔫🔫\n\n\n\n🏁🏁🚫SILENTKILLER🛇🏁🏁\n\nhttp://line.me/ti/p/%40nlh8959f');
+            let txt = await this._sendMessage(seq, ' Salam kenal semuanya 😁😁😁');
             let { listMember } = await this.searchGroup(seq.to);
             for (var i = 0; i < listMember.length; i++) {
                 if(isAdmin(listMember[i].mid)) {
