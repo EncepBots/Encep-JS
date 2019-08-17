@@ -2,12 +2,12 @@ const LineConnect = require('./connect');
 const LINE = require('./main.js');
 console.info("\n\
 ======================================================\n\
-BotName: LINE SILENT JS NEW_2019\n\
-Rework : TEAM SILENTJS\n\
+BotName: LINE Encep-JS NEW_2019\n\
+Rework : TEAM Encep-JS\n\
 Terima Kasih Kepada @Alfathdirk @TCR_TEAM @Raka_GoogleX\n\
 ======================================================\n\
-\nNOTE : Ini Adalah AlphatJS Lama Buatan @Alfathdirk @TCR_TEAM \n Dan Ini Telah Dikembangin Oleh @TAB_TEAM\n& Di upgrade ulang olleh Team SILENTJS\nTolong Untuk Tidak Perjual-Belikan Script Ini \n gunakan dengan bijak\n\
-===============☄SILENT JS NEW_2019☄=================");
+\nNOTE : Ini Adalah AlphatJS Lama Buatan @Alfathdirk @TCR_TEAM \n Dan Ini Telah Dikembangin Oleh @TAB_TEAM\n& Di upgrade ulang olleh Team Encep-JS\nTolong Untuk Tidak Perjual-Belikan Script Ini \n gunakan dengan bijak\n\
+===============☄Encep-JS NEW_2019☄=================");
 
 /*
 | This constant is for auth/login
