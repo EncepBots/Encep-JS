@@ -14,12 +14,12 @@ const { Message, OpType, Location } = require('../curve-thrift/line_types');
 
 var myStaff = ['']; //Taro Mid Yang Mau Dijadiin Staff/Wakil Admin
 
-const myAdmin = ['ub1c5a71f27b863896e9d44bea857d35b','ufdc20b3a00b5e8f31e4f91017eb361b0','u3160d2dd9658a7acec1a2480baa6a738']; //Mid Lu Supaya Jadi Admin
+const myAdmin = ['ub1c5a71f27b863896e9d44bea857d35b']; //Mid Lu Supaya Jadi Admin
 
 const myAssist = ['']; //Mid Bot Lu Jika Ada Bot 2 Atau Lebih
 
 const myBot = ['']; //Taro Mid Bot Lu Kesini (Maksud Gw Bot Yang Pake Sc Ini)
-const BoT = ['ueff8f78401c867593c6ddc8aeb8c649d','ubace7dd5006c744f5aef3e412c04e219','uf658d58086736afcfe1e1c65d290a2bf','u4382d72a8552bf1024957a02728b6ffe','u08719b87716863d883afc9f79e39a556']
+const BoT = ['ueff8f78401c867593c6ddc8aeb8c649d']
 var BlackListPermanen = ['u502fd6dcacda727a8d85bcb6708fa403'];
 var BackupList = [];
 var TbanList = []; //Users Banned Chat
@@ -1531,7 +1531,7 @@ this._sendMessage(seq,"Mohon Maaf Anda Bukan Admin ");
 
 
 		if(txt == "banlist"){
-			seq.text = "[SK List Users Banned]\n";
+			seq.text = "[List Users Banned]\n";
 			for(var i = 0; i < banList.length; i++){
 			    let orangnya = await this._getContacts([banList[i]]);
             seq.text += "\n☞ "+orangnya[0].displayName+"";
@@ -1938,7 +1938,7 @@ this._sendMessage(seq,"Mohon Maaf Anda Bukan Admin ");
       }
 
 		if(txt == "stafflist"){
-			seq.text = "[Sk List Staff]\n";
+			seq.text = "[List Staff]\n";
 			for(var i = 0; i < myStaff.length; i++){
 			    let staff = await this._getContacts([myStaff[i]]);
             seq.text += "\n☞ "+staff[0].displayName+"";
@@ -1947,7 +1947,7 @@ this._sendMessage(seq,"Mohon Maaf Anda Bukan Admin ");
 		}
 
 		if(txt == "blacklist"){
-			seq.text = "[Sk BlackList Permanent]\n";
+			seq.text = "[BlackList Permanent]\n";
 			for(var i = 0; i < BlackListPermanen.length; i++){
 			    let bl = await this._getContacts([BlackListPermanen[i]]);
             seq.text += "\n☞ "+bl[0].displayName+"";
@@ -1956,7 +1956,7 @@ this._sendMessage(seq,"Mohon Maaf Anda Bukan Admin ");
 		}
 
 		if(txt == "adminlist"){
-			seq.text = "[Sk List Admin]\n";
+			seq.text = "[List Admin]\n";
 			for(var i = 0; i < myAdmin.length; i++){
 			    let admin = await this._getContacts([myAdmin[i]]);
             seq.text += "\n☞ "+admin[0].displayName+"";
@@ -1992,7 +1992,7 @@ this._sendMessage(seq,"Mohon Maaf Anda Bukan Admin ");
       }
 
         if(txt == 'help') {
-           this._sendMessage(seq, '==============================\n☬MENU SILENTJS NEW 2019☬\n==============================\n🔖 Myid\n🔖 Gift\n🔖 Halo\n🔖 Help\n🔖 CreatorBot\n🔖 InfoGroup\n🔖 GroupCreator\n🔖 Tag\n🔖 Speed\n🔖 Baca Read\n🔖 Lihat Pembacaan Read\n🔖 Setting\n🔖 Hapus Pembacaan Read\n🔖 Banlist\n🔖 CekID\n🔖 AdminList\n🔖 StaffList\n🔖 BlackList\n🔖 TbanList\n🔖 GroupList\n🔖 Hak Admin Dan Staff\n🔖Apakah [Text] (Fitur Kerang Ajaib)\n\n==============================\n🌸🌸STAFF COMAND🌸🌸\n==============================\n🔖Response Name\n🔖 Cancel\n🔖 OpenUrl\n🔖CloseUrl\n🔖Bye\n🔖spam\n🔖 Auto Respon On/Off\n🔖 Protect On/Off\n🔖 Kick On/Off\n🔖 Cancel On/Off\n🔖 LockInvite On/Off\n🔖 LockUpdateGroup On/Off\n🔖LockOpenQr On/Off\n🔖 LockJoin On/Off\n🔖LockCancel On/Off\n🔖Kick「@」\n🔖Auto Read On/Off\n🔖sk▪[comand kickall]\n🔖Msg\n🔖 Ban\n🔖Unban\n🔖Tban\n🔖Untban\n🔖 Ban All Users\n🔖 Clear All Banlist\n🔖Bmsg On/Off\n🔖Change:NameGroup [Text]\n\n==============================\n☂☂COMMAND ADMIN☂☂\n==============================\n🔖Join [LinkGroup]\n🔖BackupGroup\n🔖 AddAllMem\n🔖add:staff\n🔖del:staff\n🔖 BroadcastGroup [Text]\n🔖 AddContact\n🔖Change:Bio [Text]\n🔖Change:Nick [Text]\n🔖 CreateGroup [Jumlah]-[Nama]/[Mid]\n\n==============================\n☄☄SILLENTKILLER☄☄\n==============================');
+           this._sendMessage(seq, '==============================\n☬MENU Encep-JS NEW 2019☬\n==============================\n🛡️ Myid\n🛡️ Gift\n🛡️ Halo\n🛡️ Help\n🛡️ CreatorBot\n🛡️ InfoGroup\n🛡️ GroupCreator\n🛡️ Tag\n🛡️ Speed\n🛡️ Baca Read\n🛡️ Lihat Pembacaan Read\n🛡️ Setting\n🛡️ Hapus Pembacaan Read\n🛡️ Banlist\n🛡️ CekID\n🛡️ AdminList\n🛡️ StaffList\n🛡️ BlackList\n🛡️ TbanList\n🛡️ GroupList\n🛡️ Hak Admin Dan Staff\n🛡️Apakah [Text] (Fitur Kerang Ajaib)\n\n==============================\n🛡️STAFF COMAND🛡️\n==============================\n🛡️Response Name\n🛡️ Cancel\n🛡️ OpenUrl\n🛡️CloseUrl\n🛡️Bye\n🛡️spam\n🛡️ Auto Respon On/Off\n🛡️ Protect On/Off\n🛡️ Kick On/Off\n🛡️ Cancel On/Off\n🛡️ LockInvite On/Off\n🛡️ LockUpdateGroup On/Off\n🛡️LockOpenQr On/Off\n🛡️ LockJoin On/Off\n🛡️LockCancel On/Off\n🛡️Kick「@」\n🛡️Auto Read On/Off\n🛡️ [comand kickall]\n🛡️Msg\n🛡️ Ban\n🛡️Unban\n🛡️Tban\n🛡️Untban\n🛡️ Ban All Users\n🛡️ Clear All Banlist\n🛡️Bmsg On/Off\n🛡️Change:NameGroup [Text]\n\n==============================\n🛡️COMMAND ADMIN🛡️\n==============================\n🛡️Join [LinkGroup]\n🛡️BackupGroup\n🛡️ AddAllMem\n🛡️add:staff\n🛡️del:staff\n🛡️ BroadcastGroup [Text]\n🛡️ AddContact\n🛡️Change:Bio [Text]\n🛡️Change:Nick [Text]\n🛡️ CreateGroup [Jumlah]-[Nama]/[Mid]\n\n==============================\n🛡️ EncepBots 🛡️\n==============================');
         }
 
          if(txt == 'hak admin dan staff' || txt == 'hak staff dan admin') {
@@ -2000,14 +2000,14 @@ this._sendMessage(seq,"Mohon Maaf Anda Bukan Admin ");
          }
 
          if(txt == "glist" || txt == "grouplist") {
-            seq.text = "==============================\n☄🏠 Group List 🏠☄\n==============================\n\n";
+            seq.text = "==============================\n😎 Group List 😎\n==============================\n\n";
          let gid = await this._getGroupsJoined();
            for(var i = 0; i < gid.length; i++){
 			     let group = await this._getGroups([gid[i]]);
 			       seq.text += "[☄] "+group[0].name+" | "+group[0].members.length+" Members☄\n";
           }
 	             seq.text += "\nTotal : "+gid.length+" Groups Joined♪";
-                seq.text += "\n\n==============================\n☄☄SILENT KILLER☄☄\n=============================="
+                seq.text += "\n\n==============================\n😎EncepBots😎\n=============================="
 			       this._sendMessage(seq,seq.text);
 	      }
 
