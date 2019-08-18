@@ -1,6 +1,6 @@
-Line Etot JS & Silent js
+Line Etot JS & Encep-JS
 `Version : Rework TAB`
-`Version : SilentJs`
+`Version : Encep-JS`
 
 # require node >= v8.x.x
 check your nodejs version
@@ -9,11 +9,10 @@ check your nodejs version
 
 Cara install?
 ------
-- `https://github.com/dhenza1415/SILENTJS`
+- `https://github.com/EncepBots/Encep-JS`
 - `ls
-- `cd SILENTJS && npm install`
+- `cd Encep-JS && npm install`
 - `nano main.js`
-- `MASUKIN MID NYA DI BAGIAN ADMIN KLO PNYA BOT MASUKIN MID BOT KLIAN DI ASIST`
 - `npm start`
 
 New
@@ -22,8 +21,6 @@ New
 
 Note
 -------
-- Jangan Perjual Belikan Script Ini!
-- Ini Alphat Lama Tapi Di Upgrade oleh TAB dan di kembangkan Oleh TBP
 - Gunakan Script Ini Dengan Bijak!
 
 Still work :construction_worker:
@@ -32,15 +29,9 @@ Still work :construction_worker:
 - Implement All 
 - Improve logic
 
-Author
-------
-[@alfathdirk](https://instagram.com/alfathdirk) (LINE ALPHAT JS)<br>
-[@GoogleX](https://fb.me/m.rakha.f) (LINE ALPHAT-FORK)<br>
-[@rivaimunte](https://instagram.com/rivaimunte02) (LINE ETOT JS)
-
 Contact Me / Need Help ?
 ------
-[@LINE](http://line.me/ti/p/~dhenz415) (rivaimunte)
+[@LINE](http://line.me/ti/p/~procep)
 
 FAQ (Frequently Asked Questions)
 ------
